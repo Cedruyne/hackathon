@@ -10,3 +10,5 @@ exp_id integer not null primary key auto_increment,
 exp_titre varchar(150) not null,
 exp_contenu varchar(500) not null
 ) engine=innodb character set utf8 collate utf8_unicode_ci;
+
+INSERT INTO t_explication VALUES (1,'Mais où suis-je ?', "T'en as marre d'être un noob en dev et inté ? Tu es bien tombé, tonton coincoin va t'expliquer les notions qui te manquent pour être le webmaster du turfu.");;
