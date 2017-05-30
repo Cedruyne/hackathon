@@ -1,5 +1,5 @@
 <?php
 
 require './modeles/explications.php';
-$explications = getExplicationsParId(1);
+$explications = getExplications();
 require './vues/index.html.php';
